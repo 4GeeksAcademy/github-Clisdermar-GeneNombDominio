@@ -18,4 +18,8 @@ function generateDomainNames() {
 }
 
 let result = generateDomainNames();
-console.log(result);
+
+// Imprimir solo los valores
+result.forEach(function(valores) {
+  console.log(valores);
+});
