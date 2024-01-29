@@ -29,6 +29,7 @@ function generateDomainNames() {
   return domainNames;
 }
 
+//Llamar a la funcion y luego imprimir el resultado
 let result = generateDomainNames();
 
 result.forEach(function(valores, index) {
